@@ -133,6 +133,45 @@ Initiate self-destruct?" buttons {"Yes", "No"} default button "No"')
 fi
 ```
 
+### com.usbsecurity.monitor.plist  
+
+This is a Property List file used for launching and managing the `usb_monitor.sh` script. It is located in the `~/Library/LaunchDaemons` directory.
+
+#### **Location**  
+`~/Library/LaunchDaemons/com.usbsecurity.monitor.plist`
+
+#### **Code**  
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" 
+"http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.usbsecurity.monitor</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/jhmcalpine/usb-security/usb_monitor.sh</string>
+    </array>
+
+    <key>WatchPaths</key>
+    <array>
+        <string>/Volumes</string>
+    </array>
+
+    <key>RunAtLoad</key>
+    <false/>
+
+    <key>StandardOutPath</key>
+    <string>/Users/jhmcalpine/usb-security/usb_monitor.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/jhmcalpine/usb-security/usb_monitor_error.log</string>
+</dict>
+</plist>
+```
 
 ---
 
