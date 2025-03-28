@@ -132,6 +132,7 @@ Initiate self-destruct?" buttons {"Yes", "No"} default button "No"')
     fi
 fi
 
+---
 
 ## Impacts & Security Enhancements  
 
@@ -150,6 +151,9 @@ To prevent USB-based attacks, it is essential to:
 - Regularly monitor USB access logs for anomalies.  
 - Implement strict access control policies for removable devices.  
 
-## Final Thought  
+---
+
+
+## Final Thoughts 
 
 This project demonstrates a novel approach to USB security by integrating **log-based intrusion detection and automated self-destruction**. By applying these techniques, users can significantly reduce the risk of unauthorized access and data theft.  
