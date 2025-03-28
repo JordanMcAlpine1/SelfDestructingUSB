@@ -28,7 +28,7 @@ To develop the **Self-Destructing USB – Log-Based Intrusion Detection & Forens
 - **Selected Linux-Based OS (Ubuntu)** – Chosen for its flexibility, scriptability, and hardware control capabilities.  
 - **Developed Automation Scripts** – Used **Bash** and **Python** to monitor and trigger USB events dynamically.  
 - **Explored Log Analysis Tools** – Investigated **Splunk** for real-time event tracking and threat detection as an optional security measure (Optional).  
-- **Tested Secure Data Wiping Commands** – Experimented with commands like **diskutil eraseDisk** to simulate USB self-destruction upon detecting unauthorized access.  
+- **Tested Secure Data Wiping Commands** – Experimented with commands like `diskutil eraseDisk` to simulate USB self-destruction upon detecting unauthorized access.  
 - **Used Wireshark for Monitoring** – Implemented optional **USB-level activity monitoring** to detect potential data exfiltration (Optional).  
 - **Evaluated Remote Logging & Alerting** – Configured **Splunk, Logwatch, and smart home notifications** to enable proactive security responses (Optional).  
 
