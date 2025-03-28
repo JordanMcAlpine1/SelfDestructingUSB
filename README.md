@@ -131,7 +131,7 @@ Initiate self-destruct?" buttons {"Yes", "No"} default button "No"')
         echo "Self-destruct canceled by user." >> "$LOGFILE"
     fi
 fi
-```bash
+```
 
 
 ---
